@@ -1,0 +1,36 @@
+{
+  "appId": "com.lightvideo.editor",
+  "productName": "LightVideo Editor",
+  "executableName": "LightVideoEditor",
+  "directories": {
+    "output": "dist-exe"
+  },
+  "files": [
+    "dist/**/*",
+    "electron-main.cjs",
+    "package.json"
+  ],
+  "win": {
+    "target": [
+      {
+        "target": "nsis",
+        "arch": ["x64"]
+      },
+      {
+        "target": "portable",
+        "arch": ["x64"]
+      }
+    ],
+    "requestedExecutionLevel": "asInvoker"
+  },
+  "nsis": {
+    "oneClick": false,
+    "allowToChangeInstallationDirectory": true,
+    "createDesktopShortcut": true,
+    "createStartMenuShortcut": true,
+    "shortcutName": "LightVideo Editor"
+  },
+  "portable": {
+    "artifactName": "LightVideoEditor-Portable.exe"
+  }
+}

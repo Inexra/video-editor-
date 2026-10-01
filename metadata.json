@@ -1,0 +1,6 @@
+{
+  "name": "LightVideo Editor",
+  "description": "Lightweight AI-powered video editor designed for low-end PCs (4GB RAM) with proxy editing, AI captions, AI clipper, and standalone Windows 10 .exe support.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
